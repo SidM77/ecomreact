@@ -8,13 +8,66 @@ body {
 }
 
 header {
-  background-color: #449e45;
+  background-color: #f7f5ee;
   padding: 1rem;
 }
 
 header a {
-  color: #ffffff;
-  font-weight: 400;
-  font-family: 'Sacramento', cursive;
+  color: #000000;
+  font-weight: 500;
+  font-size: 2.5rem;
+  font-family: 'Gloock', 'Old Standard TT', 'DM Serif Display', 'Sacramento',
+    cursive;
   text-decoration: none;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 200;
+  font-family: 'Poppins', 'Sono', sans-serif;
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  text-decoration: none;
+}
+
+.product {
+  border: 10px #ffffff solid;
+}
+
+.product img {
+  width: 100%;
+  max-width: 400px;
+  padding-bottom: 0%;
+}
+
+.brandName {
+  font-family: 'Gloock';
+  font-style: normal;
+  font-size: 1.5rem;
+  margin-bottom: 0rem;
+  margin-top: 2px;
+}
+.productName {
+  margin: 3px;
+}
+.productCost {
+  margin: 4px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Oxygen';
+}
+.product-info {
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  font-family: 'Poppins';
+  margin-bottom: 30px;
+  font-weight: 300;
+  font-style: italic;
 }
